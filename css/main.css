@@ -116,12 +116,11 @@ textarea {
 
 .indexHeader figure img {
     width: 100%;
-    border: 2px solid black;
 }
 .indexHeader p
 {
   text-align: center;
-  font-family: "Optima";
+  font-family: "Oswald";
   font-size: 18px;
   color: #334FA9;
   text-transform: full-width;
@@ -135,6 +134,7 @@ textarea {
 {
   height: 100vh;
   bottom:0;
+  background-color: black;
 }
 .indexSection div {
     display: flex;
@@ -164,10 +164,10 @@ textarea {
 .indexSection h2 {
     margin: auto;
     z-index: 2;
-    color: white;
+    color: #900C3F;
     font-size: 30px;
     text-shadow: black 4px 4px;
-    font-family: "Optima";
+    font-family: 'Wendy One', sans-serif;
 }
 
 .bagpack {
