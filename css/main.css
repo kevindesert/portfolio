@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -47,20 +51,17 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
@@ -72,6 +73,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +81,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -91,11 +94,15 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html
+{
+  font-family: 'Amatica SC', cursive;
+}
 
-/*trajectoire*/
 
 /*~~~~~~~~~~ START OF SECTION OF HEADER ~~~~~~~~~~*/
 
@@ -103,49 +110,57 @@ textarea {
     height: 100vh;
     display: flex;
     justify-content: center;
+    background: url(../img/logo.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.indexHeader h1 {
+    margin: auto;
+    font-family: 'Amatica SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 
 .indexHeader figure {
     align-self: center;
 }
 
-.indexHeader figure a {
-    width: 100%;
-    height: 100%;
+.indexHeader a {
+    text-decoration: none;
 }
 
-.indexHeader figure img {
-    width: 100%;
+.musiquegif {
+    background: url(../img/musiquegif.gif) center no-repeat;
 }
-.indexHeader p
-{
-  text-align: center;
-  font-family: "Oswald";
-  font-size: 18px;
-  color: #334FA9;
-  text-transform: full-width;
-  font-weight: bold;
-}
+
+
 /*~~~~~~~~~~ END OF SECTION OF HEADER ~~~~~~~~~~*/
 
 
 /*~~~~~~~~~~ START OF SECTION OF INDEX ~~~~~~~~~~*/
-.indexSection
-{
-  height: 100vh;
-  bottom:0;
-  background-color: black;
+
+.indexSection {
+    height: 100vh;
 }
+
 .indexSection div {
     display: flex;
     width: 100%;
+    background-color: black;
 }
 
 .indexSection div article {
     width: 50%;
-    height: 200px;
+    height: 238px;
     display: flex;
     align-content: center;
+    border: 1px solid white;
+}
+
+.indexSection, .musique {
+    background-color: black;
 }
 
 .indexSection .musique article {
@@ -158,36 +173,71 @@ textarea {
     justify-content: center;
     align-content: center;
     text-decoration: none;
-
 }
+
+
+/*COULEURS DES TITRES NAV*/
 
 .indexSection h2 {
     margin: auto;
     z-index: 2;
-    color: #900C3F;
-    font-size: 30px;
-    text-shadow: black 4px 4px;
-    font-family: 'Wendy One', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    /*text-shadow: black 4px 4px;*/
+    font-family: 'Amatica SC', cursive;
 }
 
-.bagpack {
-    background: url(../img/bagpack.jpg) center;
+
+/*COULEURS DES TITRES NAV*/
+
+.prod {
+    background: url(../img/prodfix.png) center no-repeat;
+    background-size: cover;
+}
+
+.prod:hover {
+    background: url(../img/gif/prodgif.gif) center no-repeat;
+    background-size: cover;
 }
 
 .benevolat {
-    background: url(../img/benevolat.jpg) center;
+    background: url(../img/benevolatfix.png) center no-repeat;
+    background-size: cover;
+}
+
+.benevolat:hover {
+    background: url(../img/gif/benevolatgif.gif) center no-repeat;
+    background-size: cover;
 }
 
 .conviction {
-    background: url(../img/conviction.jpg) center;
+    background: url(../img/convictionfix.png) center;
+    background-size: cover;
+}
+
+.conviction:hover {
+    background: url(../img/gif/convictiongif.gif) center;
+    background-size: cover;
 }
 
 .entreprendre {
-    background: url(../img/entreprendre.jpg) center;
+    background: url(../img/entreprendrefix.png) center no-repeat;
+    background-size: cover;
+}
+
+.entreprendre:hover {
+    background: url(../img/gif/entreprendregif.gif) center no-repeat;
+    background-size: cover;
 }
 
 .musique {
-    background: url(../img/musique.jpg) center;
+    background: url(../img/musiquefix.png) center;
+    background-size: cover;
+}
+
+.musique:hover {
+    background: url(../img/gif/musiquegif.gif) center;
     background-size: cover;
 }
 
@@ -198,22 +248,75 @@ textarea {
 .indexSection article:hover, .musique:hover {
     opacity: 1;
     transition: 1s;
-
 }
 
 
-
-/*trajectoire*/
-
+/*ALL PAGES*/
 
 
+/*ALL PAGES*/
 
 
+/*ALL PAGES*/
 
+
+/*ALL PAGES*/
+
+
+/*ALL PAGES*/
+
+
+/*ALL PAGES*/
+
+
+/*ALL PAGES*/
+
+
+/*ALL PAGES*/
+
+
+/*BAGPACK PAGE*/
+
+.bp {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.bp h2
+{
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  background-color: red;
+  width: 100%;
+  height: 20%;
+}
+.leboncoin h3, .leboncoin p, .trajectoires h3, .trajectoires p
+{
+  text-align: center;
+  font-size: 25px;
+}
+.leboncoin, .trajectoires
+{
+  width: 30%;
+  margin: auto;
+  background-color: red;
+}
+.leboncoin figure, .trajectoires figure
+{
+  width: 100%;
+  margin: auto;
+}
+.leboncoin figure img, .trajectoires figure img
+{
+  width: 100%;
+}
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -222,6 +325,7 @@ textarea {
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -239,14 +343,14 @@ textarea {
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -255,6 +359,7 @@ textarea {
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -262,6 +367,7 @@ textarea {
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -275,15 +381,17 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -295,12 +403,10 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -309,74 +415,52 @@ textarea {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
