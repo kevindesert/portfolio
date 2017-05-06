@@ -98,9 +98,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html
-{
-  font-family: 'Amatica SC', cursive;
+
+html {
+    font-family: 'Amatica SC', cursive;
 }
 
 
@@ -111,6 +111,7 @@ html
     display: flex;
     justify-content: center;
     background: url(../img/logo.jpeg) no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -139,7 +140,7 @@ html
 /*~~~~~~~~~~ END OF SECTION OF HEADER ~~~~~~~~~~*/
 
 
-/*~~~~~~~~~~ START OF SECTION OF INDEX ~~~~~~~~~~*/
+/*MENU*/
 
 .indexSection {
     height: 100vh;
@@ -249,70 +250,187 @@ html
     opacity: 1;
     transition: 1s;
 }
+/*MENU*/
 
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*ALL PAGES*/
-
-
-/*BAGPACK PAGE*/
+/*PRODUCTION PAGE*/
 
 .bp {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
-
-}
-.bp h2
-{
-  font-size: 50px;
-  margin: auto;
-  text-align: center;
-  background-color: red;
-  width: 100%;
-  height: 20%;
-}
-.leboncoin h3, .leboncoin p, .trajectoires h3, .trajectoires p
-{
-  text-align: center;
-  font-size: 25px;
-}
-.leboncoin, .trajectoires
-{
-  width: 30%;
-  margin: auto;
-  background-color: red;
-}
-.leboncoin figure, .trajectoires figure
-{
-  width: 100%;
-  margin: auto;
-}
-.leboncoin figure img, .trajectoires figure img
-{
-  width: 100%;
+    background-color: #F8F8FF;
 }
 
+.bp h2 {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.leboncoin h3, .leboncoin p, .trajectoires h3, .trajectoires p, .tattoo h3, .tattoo p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.leboncoin, .trajectoires, .tattoo {
+    width: 30%;
+    margin: auto;
+}
+
+.leboncoin figure, .trajectoires figure, .tattoo figure {
+    width: 100%;
+    margin: auto;
+}
+
+.leboncoin figure img, .trajectoires figure img, .tattoo figure img {
+    width: 100%;
+}
+
+.tattoopics {
+    border: 1px solid black;
+}
+
+
+/*PRODUCTION PAGE*/
+
+
+/*MUSIQUE PAGE*/
+
+.influence {
+    background-color: #F8F8FF;
+}
+
+.influence h2 {
+    text-align: center;
+}
+
+.coverSize {
+    width: 300px;
+    height: 300px;
+}
+
+.galerieAlbum {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ctc {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color: black;
+    height: 30vh;
+}
+
+.ctc h2, .ctc h3 {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mail {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.github {
+    color: white;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+.face
+{
+  color: #3B5998;
+}
+.contactez {
+    color: #B99243;
+}
+
+
+/*MUSIQUE PAGE*/
+
+
+/*BENEVOLAT PAGE*/
+
+.bene {
+    background-color:#F8F8FF;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.bene h2 {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.BHome {
+    width: 50%;
+}
+
+.BHome h3 {
+    text-align: center;
+}
+
+.BHome figure {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.BHome p
+{
+  width: 98%;
+  margin: auto;
+}
+.BHome a i
+{
+  margin: auto;
+}
+.BHomeMe p
+{
+  width: 90%;
+  margin: auto;
+}
+.BHomeMe {
+    width: 50%;
+}
+
+.welcomeBSH {
+    width: 48%;
+ height: 300px;
+ border: 1px solid black;
+}
+.welcomeBSH2
+{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+figcaption,.BHomeMe h3
+{
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
