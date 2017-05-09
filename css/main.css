@@ -102,15 +102,15 @@ textarea {
 html {
     font-family: 'Amatica SC', cursive;
 }
-.mobile
-{
-  display: none;
+
+.mobile {
+    display: none;
+    font-size: 12px;
 }
 
-{
-font-size: 12px;
-}
+
 /*ALL PAGES*/
+
 
 /*~~~~~~~~~~ START OF SECTION OF HEADER ~~~~~~~~~~*/
 
@@ -257,9 +257,13 @@ font-size: 12px;
     opacity: 1;
     transition: 1s;
 }
+
+
 /*MENU*/
 
+
 /*CONTACT */
+
 .ctc {
     display: flex;
     justify-content: space-between;
@@ -297,14 +301,18 @@ font-size: 12px;
 .linkedin {
     color: #0077B5;
 }
-.face
-{
-  color: #3B5998;
+
+.face {
+    color: #3B5998;
 }
+
 .contactez {
     color: #B99243;
 }
+
+
 /*CONTACT */
+
 
 /*ALL PAGES*/
 
@@ -373,16 +381,16 @@ font-size: 12px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+}
 
+.galerieAlbum figure {
+    width: 100%;
 }
-.galerieAlbum figure
-{
-  width: 100%;
+
+.galerieAlbum img {
+    width: 100%;
 }
-.galerieAlbum img
-{
-  width: 100%;
-}
+
 
 /*MUSIQUE PAGE*/
 
@@ -390,7 +398,7 @@ font-size: 12px;
 /*BENEVOLAT PAGE*/
 
 .bene {
-    background-color:#F8F8FF;
+    background-color: #F8F8FF;
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
@@ -409,7 +417,6 @@ font-size: 12px;
     margin: auto;
 }
 
-
 .BHome h3 {
     text-align: center;
 }
@@ -420,106 +427,99 @@ font-size: 12px;
     display: flex;
     justify-content: space-around;
 }
-.BHome p
-{
-  width: 98%;
-  margin: auto;
+
+.BHome p {
+    width: 98%;
+    margin: auto;
 }
-.BHome a i
-{
-  margin: auto;
+
+.BHome a i {
+    margin: auto;
 }
-.BHomeMe p
-{
-  width: 90%;
-  margin: auto;
+
+.BHomeMe p {
+    width: 90%;
+    margin: auto;
 }
+
 .BHomeMe {
     width: 50%;
 }
 
 .welcomeBSH {
-width: 100%;
- height: 30%;
- border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
 }
-.welcomeBSH2
-{
-  width: 100%;
-  height: 300px;
-  border: 1px solid black;
+
+.welcomeBSH2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
 }
-figcaption,.BHomeMe h3
-{
-  text-align: center;
+
+figcaption, .BHomeMe h3 {
+    text-align: center;
 }
-.BHome a
-{
-  margin-left: 15%;
+
+.BHome a {
+    margin-left: 15%;
 }
+
 
 /*TABLETTE ET DESKTOP VERSION*/
-@media (min-width: 768px)
-{
-  .mobile
-  {
-    display: block;
-  }
 
-  .indexSection h2, .bene h2
-  {
-    font-size: 50px;
-  }
-  .BHome {
-      width: 50%;
-  }
-  .welcomeBSH {
-      width: 48%;
-   height: 300px;
-   border: 1px solid black;
-  }
-  .galerieAlbum {
-      width: 90%;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-  }
-  .galerieAlbum figure
-  {
-    width: 30%;
-    margin: auto;
-  }
-  .galerieAlbum img
-  {
-    width: 100%;
-  }
-  .tablette
-  {
-    display: none;
-  }
+@media (min-width: 768px) {
+    .mobile {
+        display: block;
+    }
+    .indexSection h2, .bene h2 {
+        font-size: 50px;
+    }
+    .BHome {
+        width: 50%;
+    }
+    .welcomeBSH {
+        width: 48%;
+        height: 300px;
+        border: 1px solid black;
+    }
+    .galerieAlbum {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galerieAlbum figure {
+        width: 30%;
+        margin: auto;
+    }
+    .galerieAlbum img {
+        width: 100%;
+    }
+    .tablette {
+        display: none;
+    }
 }
-@media (min-width: 1024px)
-{
-  .desktop
-  {
-    display: block;
-  }
-  .galerieAlbum {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
+
+@media (min-width: 1024px) {
+    .desktop {
+        display: block;
+    }
+    .galerieAlbum {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .galerieAlbum figure {
+        width: 30%;
+    }
+    .galerieAlbum figure img {
+        width: 100%;
+    }
+}
 
 
-  }
-  .galerieAlbum figure
-  {
-    width: 30%;
-  }
-.galerieAlbum figure img
-{
-  width: 100%;
-}
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
