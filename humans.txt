@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Désert Kévin intégrateur web apprenant Simplon <KGdesert>
 
 # THANKS
 
-    <name>
+    Everybody
 
 # TECHNOLOGY COLOPHON
 
