@@ -105,9 +105,10 @@ html {
 
 .mobile {
     display: none;
-    font-size: 12px;
 }
-
+{
+  font-size: 12px;
+}
 
 /*ALL PAGES*/
 
